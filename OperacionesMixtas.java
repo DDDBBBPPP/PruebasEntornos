@@ -86,8 +86,8 @@ public class OperacionesMixtas {
      * devuelve: "17,90" (se redondea automáticamente)
      */
     public static String formatearNumero(float numero, int decimales) {
-        String numeroFormateado = String.format("%."+decimales+"f", numero);
-        String resultado = numeroFormateado;
+        
+        String resultado = String.format("%."+decimales+"f", numero);
         return resultado;
     }
 
